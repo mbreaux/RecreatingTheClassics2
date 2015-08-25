@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 9440aee5eb3ecfe48830192cd30d8dd8
+timeCreated: 1440467983
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BigRock
+    21300002: LittleRock - Copy
+    21300004: LittleRock
+    21300006: MediumRock
+    21300008: Ship
+    21300010: Shot
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BigRock
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 11
+        width: 284
+        height: 243
+      alignment: 9
+      pivot: {x: .649999976, y: .529999971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LittleRock - Copy
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 223
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: .5, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LittleRock
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 223
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MediumRock
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 131
+        width: 124
+        height: 123
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ship
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 168
+        width: 63
+        height: 86
+      alignment: 9
+      pivot: {x: .5, y: .400000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shot
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 212
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

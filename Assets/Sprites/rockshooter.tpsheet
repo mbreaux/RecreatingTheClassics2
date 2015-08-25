@@ -1,0 +1,16 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: rockshooter.png (512 x 256)
+# $TexturePacker:SmartUpdate:ca5aad06e291b7f2f272814d5e5d8b9c:632cfedf96e7ef5a999940f381221575:1dffa4a273681ed8d9b84b6f3dff78b6$
+#
+
+BigRock;2;11;284;243;0.5;0.5
+LittleRock - Copy;479;223;31;31;0.5;0.5
+LittleRock;479;223;31;31;0.5;0.5
+MediumRock;288;131;124;123;0.5;0.5
+Ship;414;168;63;86;0.5;0.5
+Shot;479;212;8;9;0.5;0.5
