@@ -6,10 +6,12 @@ using System.Collections;
 public class Warp : MonoBehaviour {
 
     Collider2D cd;
+    ShotController sc;
 
     void Awake()
     {
         cd = GetComponent<Collider2D>();
+        sc = GetComponent<ShotController>();
     }
 	// Update is called once per frame
 	void Update () {
@@ -48,7 +50,11 @@ public class Warp : MonoBehaviour {
             {
                 newy = cameraBounds.center.y + cameraBounds.extents.y + cd.bounds.extents.y;
             }
-            transform.position = new Vector3(newx, newy, 0.0f);
+            if (sc != null)
+            {
+                sc.WarpTo(new Vector3(newx, newy, 0.0f));
+            }
+            transform.position = new Vector3(newx, newy, 0.0f);            
         }
 	}
 }
