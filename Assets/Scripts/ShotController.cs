@@ -10,10 +10,11 @@ public class ShotController : MonoBehaviour {
     float distanceTraveled = 0.0f;
     Vector2 lastPosition;
     Rigidbody2D rb;
-
+    GameController gc;
 
     void Awake()
     {
+        gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
         rb = GetComponent<Rigidbody2D>();
     }
 	// Use this for initialization
@@ -36,5 +37,13 @@ public class ShotController : MonoBehaviour {
     {
         distanceTraveled += Vector2.Distance(lastPosition, transform.position);
         lastPosition = newPos;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Asteroid")
+        {
+            gc.OnShotHitsAsteroid(this.gameObject, collision.gameObject);
+        }
     }
 }
